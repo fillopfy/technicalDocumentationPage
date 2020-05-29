@@ -66,6 +66,17 @@ nav ul li {
 	color:white;
 }
 
+.description > ul{
+	display: block;
+	margin-left:40px;
+	margin-right: 40px;
+}
+
+.description > ul > ul{
+	display: block;
+	margin-left:40px;
+	margin-right: 40px;
+}
 
 
 #topics{
