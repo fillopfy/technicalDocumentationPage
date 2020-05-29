@@ -7,6 +7,8 @@
 }
 
 header{
+	background: #330a07;
+	color:white;
 	padding: 40px;
 }
 
@@ -31,6 +33,7 @@ nav > ul{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	background: #1f1c1c;
 }
 
 nav ul li {
@@ -40,18 +43,26 @@ nav ul li {
 	padding: 20px;
 	margin:10px;
 	font-size: 20px;
+	align-items: flex-end;
 
 }
 
 
 
-a{
+.done{
+	display: block;
 	text-decoration: none;
 	color:black;
+	padding: 10px;	
+	
+	color:white;
 }
+
+
 
 #topics{
 	width:20%;
+	background: #1f1c1c;
 }
 
 #sections{
@@ -81,4 +92,24 @@ code{
 .description{
 	padding: 50px;
 	background: cyan;
+}
+
+
+footer{
+	display: block;
+	background: #330a07;
+	color:white;
+}
+
+footer > h3{
+	text-align: center;
+	padding: 60px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+footer h3 a{
+	text-decoration: none;
+	color:white;
+
 }
